@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width" />
     <title>Студия</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
@@ -21,19 +25,19 @@
           <nav class="header-menu">
             <ul class="header-list">
               <li>
-                <a href="#" class="heder-link">Главная</a>
+                <a href="#main" class="heder-link">Главная</a>
               </li>
               <li>
-                <a href="#" class="heder-link">Наши проекты</a>
+                <a href="#projects" class="heder-link">Наши проекты</a>
               </li>
               <li>
-                <a href="#" class="heder-link">Услуги</a>
+                <a href="#services" class="heder-link">Услуги</a>
               </li>
               <li>
-                <a href="#" class="heder-link">Новости</a>
+                <a href="#news" class="heder-link">Новости</a>
               </li>
               <li>
-                <a href="#" class="heder-link">Контакты</a>
+                <a href="#contact" class="heder-link">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -41,11 +45,11 @@
       </div>
     </header>
 
-    <div class="intro">
+    <div class="intro" id="main">
       <div class="container">
         <div class="intro-iner">
           <p class="intro-text">Передовая IT студия</p>
-          <h1 class="intro-title">
+          <h1 class="intro-title animate__animated">
             Мы создаем легкие решения сложных задач и проблем
           </h1>
           <a href="#" class="intro-link">Наши проекты</a>
@@ -53,7 +57,7 @@
       </div>
     </div>
 
-    <section>
+    <section id="services">
       <div class="container">
         <div class="services">
           <div class="services-up">
@@ -93,7 +97,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="news">
       <div class="container">
         <div class="about">
           <div class="about-up">
@@ -189,9 +193,9 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="projects" id="projects">
       <div class="container">
-        <div class="projects">
+        <div class="projects-content">
           <h2 class="projects-title title">Наши проекты</h2>
           <p class="projects-text text">
             Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -224,7 +228,7 @@
         </div>
         <div class="video-block">
           <a href="#" class="video-link"
-            ><img src="img/play.svg" alt="play" />Смотреть видео</a
+            ><img src="img/play.png" alt="play" />Смотреть видео</a
           >
         </div>
       </div>
@@ -247,7 +251,7 @@
         <p class="sub-text">Мы не шлем спам, и передаем никому ваши данные.</p>
       </div>
     </div>
-    <footer>
+    <footer id="contact">
       <div class="container">
         <div class="footer one">
           <div class="footer-block">
@@ -296,10 +300,7 @@
         </div>
       </div>
     </footer>
-    <script
-      type="text/javascript"
-      src=" https://code.jquery.com/jquery-1.11.2.js "
-    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/js/main.js"></script>
   </body>
 </html>

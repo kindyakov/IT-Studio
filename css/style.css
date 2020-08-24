@@ -307,6 +307,8 @@ button {
 /* projects */
 .projects {
   padding: 0px 0px 130px 0px;
+}
+.projects-content {
   width: 100%;
 }
 .projects-title {
@@ -386,7 +388,8 @@ button {
 }
 .video-link:hover {
   background: #538bbf;
-  border: none;
+  border: 1px solid #538bbf;
+  transform: translateY(-7px);
 }
 .subcribe {
   margin: 0 auto;
@@ -452,6 +455,9 @@ form a {
   justify-content: space-between;
   border-top: 1px solid;
 }
+.footer-nav {
+  display: block;
+}
 .footer-title {
   margin-bottom: 35px;
   font-weight: 600;
@@ -481,6 +487,7 @@ form a {
 }
 .footer-list a:hover {
   color: #4985ff;
+  font-weight: 550;
   text-decoration: underline;
 }
 
@@ -600,7 +607,7 @@ form a {
     width: 40%;
     text-align: center;
     display: block;
-    padding: 5px;
+    padding: 10px;
     background: #4985ff;
     color: #ffffff;
     margin-left: 24%;
@@ -711,7 +718,7 @@ form a {
   .subcribe {
     margin: 0 auto;
     margin-top: 0px;
-    margin-bottom: 30px;
+    padding-bottom: 100px;
   }
   form {
     flex-direction: column;
@@ -836,7 +843,7 @@ form a {
     left: 0;
     top: -100%;
     width: 100%;
-    height: 210px;
+    height: 220px;
     background-color: #4985ff;
     padding: 70px 0px 0px 0px;
     transition: all 0.3s ease;
@@ -863,7 +870,7 @@ form a {
     margin-bottom: 20px;
   }
   .intro-text {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
   .intro {
@@ -873,7 +880,7 @@ form a {
     padding-top: 150px;
   }
   .text {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 20px;
   }
   .about-sub {
@@ -882,6 +889,7 @@ form a {
   }
   .info-sub__title {
     font-size: 14px;
+    text-align: center;
   }
   .projects-title {
     font-size: 33px;
@@ -908,5 +916,8 @@ form a {
   }
   .video-link {
     padding: 21px 30px 20px 30px;
+  }
+  .info-link {
+    font-size: 13px;
   }
 }

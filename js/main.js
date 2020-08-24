@@ -13,3 +13,13 @@ $(document).ready(function () {
     $("body").toggleClass("lock");
   });
 });
+$(document).ready(function () {
+  $(".heder-link").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: $($(this).attr("href")).offset().top + "px",
+      },
+      { duration: 1000, esing: "swing" }
+    );
+  });
+});
